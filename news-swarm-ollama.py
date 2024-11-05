@@ -11,6 +11,9 @@ current_date = datetime.now().strftime("%Y-%m")
 
 MODEL = "llama3.2"
 
+# ============= Source ====================
+# source: https://ollama.com/blog/openai-compatibility
+# ============= Source ====================
 ollama_client = OpenAI(
     base_url="http://localhost:11434/v1",
     api_key="ollama",  # required, but unused

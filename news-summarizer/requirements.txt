@@ -1,0 +1,8 @@
+feedparser
+requests
+streamlit
+python-dateutil
+nltk
+duckduckgo-search
+geocoder
+pytz

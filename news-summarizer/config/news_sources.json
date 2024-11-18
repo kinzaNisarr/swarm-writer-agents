@@ -1,0 +1,36 @@
+{
+  "new_york": [
+    {
+      "name": "NY Times Local",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/NYRegion.xml",
+      "category": "general"
+    },
+    {
+      "name": "NY1 News",
+      "url": "https://www.ny1.com/services/feeds/rss/",
+      "category": "local"
+    },
+    {
+      "name": "Gothamist",
+      "url": "https://gothamist.com/feed",
+      "category": "local"
+    }
+  ],
+  "san_francisco": [
+    {
+      "name": "SF Chronicle",
+      "url": "https://www.sfchronicle.com/feed/feed.xml",
+      "category": "general"
+    },
+    {
+      "name": "SF Gate",
+      "url": "https://www.sfgate.com/feed/feed.xml",
+      "category": "local"
+    },
+    {
+      "name": "Mission Local",
+      "url": "https://missionlocal.org/feed/",
+      "category": "local"
+    }
+  ]
+}

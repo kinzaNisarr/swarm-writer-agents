@@ -1,0 +1,9 @@
+{
+    "new_york": [
+        {
+            "name": "NY Times Local",
+            "url": "https://rss.nytimes.com/services/xml/rss/nyt/NYRegion.xml",
+            "category": "general"
+        }
+    ]
+}

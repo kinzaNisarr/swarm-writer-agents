@@ -83,6 +83,9 @@ class OrchestratorAgent(BaseAgent):
                         "content": str(
                             {
                                 "location": travel_request["destination"],
+                                # "location": travel_request.get(
+                                #     "destination", "amsterdam"
+                                # ),
                                 "check_in": travel_request["departure_date"],
                                 "check_out": travel_request["return_date"],
                                 "adults": travel_request.get("adults", 1),
@@ -95,6 +98,7 @@ class OrchestratorAgent(BaseAgent):
                     }
                 ]
             )
+            print(f"\n \n==> Hotels: {hotels} \n \n")
             workflow_context.update(
                 {"hotels": hotels, "current_stage": "email_preparation"}
             )
